@@ -32,7 +32,8 @@ Issues = "https://github.com/wolf_skullcave/currency-converter/issues"
 Source = "https://github.com/wolf_skullcave/currency-converter"
 
 [tool.hatch.version]
-path = "src/currency_converter/__about__.py"
+#path = "src/currency_converter/__init__.py"
+version = {source = "vcs"}
 
 [tool.hatch.envs.types]
 extra-dependencies = [
