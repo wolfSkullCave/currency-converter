@@ -1,2 +1,2 @@
 # currency-converter
-Built in python
+Convert USD to ZAR.
