@@ -1,3 +1,16 @@
+"""
+This module contains functions for currency conversion.
+
+The conversion is done by scraping the website: https://currencyfreaks.com/
+
+The conversion rate is rounded up to the nearest cent.
+
+The functions are:
+- round_up(num): rounds up the given number to the nearest cent.
+- main(): scrapes the website and prints out the conversion of $1 and a
+specified amount to Rand.
+"""
+
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import math
