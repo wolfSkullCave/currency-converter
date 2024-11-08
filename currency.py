@@ -21,11 +21,11 @@ number = float(
 )
 
 rounded_up = round_up(number)
-
+print(f"$1 = R{rounded_up}")
 amount_to_change = float(
-    input("Please enter an amount: $")
+    input("Please enter an amount to convert: $")
 )
 answer = amount_to_change * number
 print(
-    f"$1 = R{rounded_up} \n${amount_to_change} = R{round_up(answer)}"
+    f"${amount_to_change} = R{round_up(answer)}"
 )
