@@ -1,7 +1,11 @@
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
+import typer
+
+
+# def main(name: str):
+#     print(f"Hello {name}")
+
+
+if __name__ == "__main__":
+    # typer.run(main)
     import currency
-
-
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    typer.run(currency.convert)
