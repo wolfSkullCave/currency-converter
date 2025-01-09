@@ -34,11 +34,15 @@ currrency_html = soup.find("div", class_='result')
 currency_text = currrency_html.text
 conversion_rate = float(currency_text.split('=')[1].split('ZAR')[0].strip())
 
-print(f"$1 = R {round_up(conversion_rate)}")
 
 @app.command()
-def convert():
-    dollars_to_convert = float(typer.prompt("Please enter an amount to convert: $"))
-    print (f"${dollars_to_convert} = R {round_up(dollars_to_convert * conversion_rate)}")
+def rate():
+      print(f"$1 = R {round_up(conversion_rate)}")
+
+@app.command()
+def convert(num_to_convert: float):
+        print (f"${round_up(num_to_convert)} = R {round_up(num_to_convert * conversion_rate)}")
 
 
+if __name__ == "__main__":
+    app()

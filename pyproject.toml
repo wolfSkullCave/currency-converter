@@ -24,7 +24,10 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+  "typer",
+  "beautifulsoup4",
+]
 
 [project.urls]
 Documentation = "https://github.com/wolf_skullcave-Laptop/currency-converter#readme"

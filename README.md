@@ -8,12 +8,27 @@
 ## Table of Contents
 
 - [Installation](#installation)
+- [Usage](#usage)
 - [License](#license)
 
 ## Installation
 
 ```console
 pip install currency-converter
+```
+
+## Usage
+
+Show current convertion rate:
+
+```console
+currency rate # displays current conversion rate (USD to ZAR)
+```
+
+Convert USD to ZAR
+
+```console
+currency convert <number>
 ```
 
 ## License
