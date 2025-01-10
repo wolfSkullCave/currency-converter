@@ -22,7 +22,7 @@ pip install currency-converter
 Show current convertion rate:
 
 ```console
-currency rate # displays current conversion rate (USD to ZAR)
+currency rate 
 ```
 
 Convert USD to ZAR
