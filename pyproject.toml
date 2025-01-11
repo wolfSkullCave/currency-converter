@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "currency-converter"
+name = "currency_converter"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
